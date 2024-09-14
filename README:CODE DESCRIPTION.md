@@ -54,7 +54,7 @@ Performs a forward pass through the network, calculating activations for each la
 backward_pass(self, out, activation):
 
 Performs a backward pass through the network, calculating deltas (errors) for each layer.
-Calls functions to compute deltas for output, hidden layers 2 and 1 (marked as TODO for different activation functions).
+Calls functions to compute deltas for output, hidden layers 2 and 1.
 
 compute_output_delta(self, out, activation="sigmoid"):
 
@@ -79,4 +79,4 @@ Main block:
 
 Defines the dataset URL (dataset).
 Creates three instances of NeuralNet for training with sigmoid, tanh, and ReLU activations.
-Trains each network and calls
+Trains each network and calls.
